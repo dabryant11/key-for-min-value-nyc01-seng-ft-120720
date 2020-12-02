@@ -10,8 +10,9 @@ name_hash.each do |key, value  |
     elsif value  <  lowest
     lowest = value  
   end 
-  puts lowest
 end 
+  puts lowest
+
 end
 
 
