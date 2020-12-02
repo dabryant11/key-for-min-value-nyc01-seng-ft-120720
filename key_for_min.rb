@@ -5,9 +5,9 @@ def key_for_min_value(name_hash)
   lowest = key[0] 
   
 name_hash.each do |key|
-  if key < key[0]
+  if key < lowest 
     lowest << key 
   end 
-  puts key
+  puts lowest
 end 
 end
