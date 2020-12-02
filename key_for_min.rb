@@ -8,6 +8,7 @@ name_hash.each do |key, value  |
   if curr_key == nil
     curr_key = key 
     elsif curr_key = key 
+  end 
   if lowest == nil 
     lowest = value 
     elsif value  <  lowest
