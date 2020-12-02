@@ -1,9 +1,9 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(name_hash)
+def key_for_min_value(name_hash,key)
+  key = 
   lowest = key[0] 
-  
 name_hash.each do |name_hash, key |
   if key < lowest 
     lowest << key 
@@ -11,3 +11,8 @@ name_hash.each do |name_hash, key |
   puts lowest
 end 
 end
+
+
+
+
+
