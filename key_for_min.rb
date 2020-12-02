@@ -14,7 +14,7 @@ name_hash.each do |key, value  |
     curr_key = key 
   end 
 end 
-puts curr_key + lowest 
+puts "#{curr_key}  #{lowest}" 
 end
 
 
