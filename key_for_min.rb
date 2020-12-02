@@ -11,7 +11,6 @@ name_hash.each do |key, value  |
     lowest = value  
   end 
 end 
-  puts lowest
 
 end
 
